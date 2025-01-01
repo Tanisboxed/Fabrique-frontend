@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -15,9 +16,13 @@ const Hero = () => {
             designed ot bring out your individuality and cater to your sense of
             style.
           </p>
-          <button className="w-[200px] rounded-full font-medium px-6 py-3 text-black border-black border-4 bg-transparent hover:bg-black hover:text-white mt-4 md:mt-0 ">
-            Shop Now
-          </button>
+          <Link href="/products">
+            <a>
+              <button className="w-[200px] rounded-full font-medium px-6 py-3 text-black border-black border-4 bg-transparent hover:bg-black hover:text-white mt-4 md:mt-0 ">
+                Shop Now
+              </button>
+            </a>
+          </Link>
           <div className="flex flex-col mb-8 sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 mt-8">
             <div className="text-center">
               <span className="text-2xl md:text-4xl font-bold">200+</span>
