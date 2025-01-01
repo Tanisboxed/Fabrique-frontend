@@ -3,7 +3,7 @@ import React from "react";
 import ProductDetails from "@/components/product/product-details";
 
 async function fetchProductDetails(slug: string) {
-  const res = await fetch(`https://fabriqueapi.vercel.app/api/products/${slug}`, {
+  const res = await fetch(`https://fabriqueapi.onrender.com/api/products/${slug}`, {
     cache: "no-store",
   });
 

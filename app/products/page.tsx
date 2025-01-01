@@ -9,7 +9,7 @@ import ProductFilter from "@/components/product/product-filter";
 async function fetchProducts(
   params: Record<string, string | number>
 ): Promise<Product[]> {
-  const url = new URL("https://fabriqueapi.vercel.app/api/products");
+  const url = new URL("https://fabriqueapi.onrender.com/api/products");
 
   Object.entries(params).forEach(([key, value]) => {
     url.searchParams.append(key, String(value));

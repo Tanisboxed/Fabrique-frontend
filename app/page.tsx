@@ -10,13 +10,13 @@ export default function HomePage() {
       <ProductSection
         id="new-arrivals"
         title="NEW ARRIVALS"
-        endpoint="https://fabriqueapi.vercel.app/api/products?limit=4"
+        endpoint="https://fabriqueapi.onrender.com/api/products?limit=4"
         linkUrl="/products"
       />
       <ProductSection
         id="sale"
         title="Top selling"
-        endpoint="https://fabriqueapi.vercel.app/api/products?limit=4"
+        endpoint="https://fabriqueapi.onrender.com/api/products?limit=4"
         linkUrl="/products"
       />
       <CategorySection />

@@ -11,7 +11,7 @@ function ProductFilter() {
 
   React.useEffect(() => {
     const fetchCategoris = async () => {
-      const res = await fetch("https://fabriqueapi.vercel.app/api/categories");
+      const res = await fetch("https://fabriqueapi.onrender.com/api/categories");
       const data = await res.json();
       console.log(data);
     };
