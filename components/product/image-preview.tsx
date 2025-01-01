@@ -25,7 +25,7 @@ function ImagePreview({ images = [], title }: Props) {
               <img
                 src={image || "/placeholder2.png"}
                 alt={title}
-                className="object-cover object-center rounded"
+                className="object-cover object-center rounded w-full h-full"
               />
             </div>
           </div>
