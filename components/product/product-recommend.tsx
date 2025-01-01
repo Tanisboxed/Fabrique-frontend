@@ -25,7 +25,7 @@ const recommendedProducts: any[] = [
     _id: "3",
     title: "Sleek black shiny boots shoes",
     price: 579,
-    images: ["https://plus.unsplash.com/premium_photo-1671379102281-7225f3d3d97d?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"],
+    images: ["https://plus.unsplash.com/premium_photo-1671379100088-ea688f5cd763?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"],
     rating: 4.6,
     reviewCount: 45,
   },
